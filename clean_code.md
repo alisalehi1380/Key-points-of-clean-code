@@ -23,6 +23,8 @@ _____________________________________
 
 1. هر تست (بهتر است) **فقط یک** assertion داشته باشد. ([One Assertion Per Test][One Assertion Per Test])
 2. از قوانین [F.I.R.S.T][F.I.R.S.T] پیروی کنید.
+    1. تست های شما باید **به سرعت اجرا** شوند، حتی اگر 1000 تا باشد. ([Fast][Fast])
+    2. تست های شما باید به سادگی **خوانده** و **درک** شوند. ([Readability][Readability])
 
 ---
 
@@ -49,7 +51,8 @@ _____________________________________
 [//]: # (تست ها)
 [One Assertion Per Test]:https://www.google.com/search?q=One+assert+per+test+principel&client=firefox-b-d&sca_esv=601759512&sxsrf=ACQVn0_pHHKj3NR9hJjKQTgAls9Ctm4OaA%3A1706288379195&ei=--SzZdO-C82Hxc8P8Kic-AQ&ved=0ahUKEwiTqOfFw_uDAxXNQ_EDHXAUB08Q4dUDCBA&uact=5&oq=One+assert+per+test+principel&gs_lp=Egxnd3Mtd2l6LXNlcnAiHU9uZSBhc3NlcnQgcGVyIHRlc3QgcHJpbmNpcGVsSMIyUABY3S1wAHgBkAEAmAEAoAEAqgEAuAEDyAEA-AEC-AEB4gMEGAAgQQ&sclient=gws-wiz-serp
 [F.I.R.S.T]:https://www.google.com/search?q=F.I.R.S.T+principles+of+testing&client=firefox-b-d&sca_esv=602429663&sxsrf=ACQVn0_qC-m4AhcZzqiKkabWGtRZCwSaxw%3A1706557902727&ei=zgG4ZYyIK-CYi-gPs4eRyAI&ved=0ahUKEwiMp9HMr4OEAxVgzAIHHbNDBCkQ4dUDCBA&uact=5&oq=F.I.R.S.T+principles+of+testing&gs_lp=Egxnd3Mtd2l6LXNlcnAiH0YuSS5SLlMuVCBwcmluY2lwbGVzIG9mIHRlc3RpbmcyBRAAGIAEMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgNI_ANQAFgAcAB4AZABAJgBnAKgAZwCqgEDMi0xuAEDyAEA-AEC-AEB4gMEGAAgQQ&sclient=gws-wiz-serp
-
+[Fast]:https://www.google.com/search?client=firefox-b-d&q=Fast+principle+in+teting
+[Readability]:https://www.google.com/search?q=Readability+in+tests&client=firefox-b-d&sca_esv=8cd01c0eb9e4bd98&sxsrf=ACQVn09VDxYVnWFCnly9aunTQaKwXZzw2g%3A1707077737717&ei=afC_ZYi0K7SLi-gPraeNkAk&ved=0ahUKEwjIjKSRwJKEAxW0xQIHHa1TA5IQ4dUDCBA&uact=5&oq=Readability+in+tests&gs_lp=Egxnd3Mtd2l6LXNlcnAiFFJlYWRhYmlsaXR5IGluIHRlc3RzMgQQIxgnMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSNwVUL0GWKUTcAN4AJABAZgBnAOgAbYMqgEHMi0yLjIuMbgBA8gBAPgBAcICChAAGEcY1gQYsAPiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp
 
 [//]: # (مشارکت در پروژه)
 [Summery Of Clean Code]:https://github.com/alisalehi1380/summary-of-clean-code
