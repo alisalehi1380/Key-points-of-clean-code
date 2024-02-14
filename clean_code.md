@@ -15,9 +15,9 @@ _____________________________________
 1. متغیر ها، ثابت ها و تمام داده های قابل تنظیم، باید در **بالا ترین سطح انتزاع** قرار داشته باشند. ([Configurable Data At High Levels][Configurable Data At High Levels])
 2. به جای **نقض کردن** قانون [open-closed][open-closed]، از ویژگی [polymorphism][polymorphism] استفاده کنید. ([Replace Conditional With Polymorphism][Replace Conditional With Polymorphism])
 3.
-4. از **بیش از اندازه** دادنِ آزادی عمل به توسعه دهنده های برنامه خود جلوگیری کنید. ([Prevent Over-Configurability][Prevent Over-Configurability])
+4. از بیش از اندازه دادنِ **آزادی عمل** به توسعه دهنده های برنامه خود جلوگیری کنید. ([Prevent Over-Configurability][Prevent Over-Configurability])
 5. به جای ساخت آبجکت (با استفاده از new)، از **تزریق وابستگی** استفاده کنید. ([Dependency Injection][Dependency Injection])
-6. توابع و کلاس ها به جز کاری که انجام میدهند، **نباید** به جزئیات دیگری در کد دسترسی داشته باشند. (قانون [LoD][LoD])
+6. توابع و کلاس ها به جز کاری که انجام میدهند، نباید به جزئیات دیگری در کد **دسترسی** داشته باشند. (قانون [LoD][LoD])
 
 ## تست ها
 
@@ -25,8 +25,9 @@ _____________________________________
 2. از قوانین [F.I.R.S.T][F.I.R.S.T] پیروی کنید.
    1. تست های شما باید **به سرعت اجرا** شوند، حتی اگر 1000 تا باشد. ([Fast][Fast])
    2. تست های شما باید **ایزوله** و **مستقل** باشند و هیچ چیزی اعم از سیستم عامل، متغیر های محیطی، کدهای برنامه نویس دیگر، نباید در نحوه ی کار آنها اختلال ایجاد کند. ([Isolated/Independent][Isolated/Independent])
-   3. تست های شما باید به سادگی **خوانده** و **درک** شوند. ([Readability][Readability])
+   3. تست های شما باید **قطعی** و **تکرار پذیر** باشند، متغیر های آنها نباید در محیط های مختلف تغییر کند. ([Repeatable][Repeatable])
    4. ([Self-validating][Self-validating])
+3. تست های شما باید به سادگی **خوانده** و **درک** شوند. ([Readability][Readability])
 
 ---
 
@@ -57,6 +58,7 @@ _____________________________________
 [Isolated/Independent]:https://www.google.com/search?q=isolation+in+testing&client=firefox-b-d&sca_esv=5ee345275e04b3bb&sxsrf=ACQVn0-nhUyEHNmtORK6i2FCDChzXkt1BQ%3A1707244106997&ei=SnrCZeS2PMeqkdUPkPa2qAM&oq=isolation+in+testing&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGlzb2xhdGlvbiBpbiB0ZXN0aW5nKgIIADIEEAAYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjkPVCsDViAMXAPeACQAQGYAYYDoAGZCaoBBTItMy4xuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICCBAAGIAEGKIEwgIHEAAYgAQYDcICCBAhGKABGMMEwgIGEAAYBxgewgIIEAAYBxgeGA_CAggQABgFGAcYHsICCBAAGAgYBxgewgIJEAAYgAQYDRgK4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp
 [Readability]:https://www.google.com/search?q=Readability+in+tests&client=firefox-b-d&sca_esv=8cd01c0eb9e4bd98&sxsrf=ACQVn09VDxYVnWFCnly9aunTQaKwXZzw2g%3A1707077737717&ei=afC_ZYi0K7SLi-gPraeNkAk&ved=0ahUKEwjIjKSRwJKEAxW0xQIHHa1TA5IQ4dUDCBA&uact=5&oq=Readability+in+tests&gs_lp=Egxnd3Mtd2l6LXNlcnAiFFJlYWRhYmlsaXR5IGluIHRlc3RzMgQQIxgnMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSNwVUL0GWKUTcAN4AJABAZgBnAOgAbYMqgEHMi0yLjIuMbgBA8gBAPgBAcICChAAGEcY1gQYsAPiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp
 [Self-validating]:https://www.google.com/search?client=firefox-b-d&q=Self-validating+in+testing#ip=1
+[Repeatable]:https://www.google.com/search?client=firefox-b-d&q=Repeatable+in+testing+
 
 [//]: # (مشارکت در پروژه)
 [Key points of clean code]:https://github.com/alisalehi1380/Key-points-of-clean-code
