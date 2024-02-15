@@ -19,6 +19,9 @@ _____________________________________
 5. به جای ساخت آبجکت (با استفاده از new)، از **تزریق وابستگی** استفاده کنید. ([Dependency Injection][Dependency Injection])
 6. توابع و کلاس ها به جز کاری که انجام میدهند، نباید به جزئیات دیگری در کد **دسترسی** داشته باشند. (قانون [LoD][LoD])
 
+## قوانین توابع
+1. توابع شما باید کوچک باشند. ([small][small])
+
 ## تست ها
 
 1. هر تست (بهتر است) **فقط یک** assertion داشته باشد. ([One Assertion Per Test][One Assertion Per Test])
@@ -50,6 +53,9 @@ _____________________________________
 [Prevent Over-Configurability]:https://www.google.com/search?q=prevent+over-configurability+in+software+development&client=firefox-b-d&sca_esv=600673538&hl=en&sxsrf=ACQVn0_HaGEsvW-AJSqm3jLZnxJfiDN5tQ%3A1705998019031&ei=w3avZeu0AeiJi-gPn-mS4AQ&oq=Prevent+over-configurability&gs_lp=Egxnd3Mtd2l6LXNlcnAiHFByZXZlbnQgb3Zlci1jb25maWd1cmFiaWxpdHkqAggAMgcQIxiwAxgnMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADSPIWUABYAHABeAGQAQCYAQCgAQCqAQC4AQHIAQDiAwQYACBBiAYBkAYJ&sclient=gws-wiz-serp
 [Dependency Injection]:https://www.google.com/search?client=firefox-b-d&q=devpendency+injection
 [LoD]:https://www.google.com/search?q=law+of+demeter&client=firefox-b-d&sca_esv=602140452&sxsrf=ACQVn09ybUpL7K4NnL5KzYu0wb69Qfj7jQ%3A1706441247896&ei=Hzq2Zc6TNvaFxc8PktKlqA0&oq=principle+of+least+knowledge&gs_lp=Egxnd3Mtd2l6LXNlcnAiHHByaW5jaXBsZSBvZiBsZWFzdCBrbm93bGVkZ2VI0gNQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAOIDBBgAIEE&sclient=gws-wiz-serp&ved=0ahUKEwiOn6SD_f-DAxX2QvEDHRJpCdUQ4dUDCBA&uact=5
+
+[//]: # (قوانین توابع)
+[small]:https://www.google.com/search?q=+small++rule+of+functions+&client=firefox-b-d&sca_esv=c24955e436027d1c&sxsrf=ACQVn08IXETC0FckjJDc1YsYF92aVKau5g%3A1708031089377&ei=cXzOZfDJFqLsi-gP_by0IA&ved=0ahUKEwiwxuPSn66EAxUi9gIHHX0eDQQQ4dUDCBA&uact=5&oq=+small++rule+of+functions+&gs_lp=Egxnd3Mtd2l6LXNlcnAiGiBzbWFsbCAgcnVsZSBvZiBmdW5jdGlvbnMgMgUQIRigATIFECEYoAEyBRAhGKABSIRaUOYFWPxUcAN4AZABAJgB9QKgAeMOqgEFMi0yLjS4AQPIAQD4AQH4AQLCAgoQABhHGNYEGLADwgIIECEYoAEYwwTCAggQABiABBiiBMICBRAhGJ8FiAYBkAYH&sclient=gws-wiz-serp
 
 [//]: # (تست ها)
 [One Assertion Per Test]:https://www.google.com/search?q=One+assert+per+test+principel&client=firefox-b-d&sca_esv=601759512&sxsrf=ACQVn0_pHHKj3NR9hJjKQTgAls9Ctm4OaA%3A1706288379195&ei=--SzZdO-C82Hxc8P8Kic-AQ&ved=0ahUKEwiTqOfFw_uDAxXNQ_EDHXAUB08Q4dUDCBA&uact=5&oq=One+assert+per+test+principel&gs_lp=Egxnd3Mtd2l6LXNlcnAiHU9uZSBhc3NlcnQgcGVyIHRlc3QgcHJpbmNpcGVsSMIyUABY3S1wAHgBkAEAmAEAoAEAqgEAuAEDyAEA-AEC-AEB4gMEGAAgQQ&sclient=gws-wiz-serp
