@@ -1,10 +1,7 @@
-<div style="text-align:center;max-height: 600px !important;">
-   
-![Robert C Martin](https://gist.github.com/assets/111766206/a22b0f56-3da5-4c9a-84c3-278234f645c4)
-   
+<div style="text-align: center;">
+  <img src="https://gist.github.com/assets/111766206/a22b0f56-3da5-4c9a-84c3-278234f645c4" style="height: 600px;"/>
 </div>
-
-<div dir="rtl">
+<div dir="rtl" style="margin-top: 20px;">
 کدی تمیز است که به راحتی توسط همه ی اعضای تیم قابل درک باشد. کد تمیز میتواند توسط توسعه دهنده ای به غیر از نویسنده ی آن، خوانده و توسعه داده شود. خوانایی، قابلیت نگهداری، تغییر و توسعه پذیری کد، تنها زمانی امکان پذیر است که شما درک درستی از نحوه ی کار کد پیدا کنید.
 
 _____________________________________
