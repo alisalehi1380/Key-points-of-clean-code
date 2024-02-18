@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img src="https://gist.github.com/assets/111766206/a22b0f56-3da5-4c9a-84c3-278234f645c4" style="height: 600px;"/>
+  <img src="https://gist.github.com/assets/111766206/a22b0f56-3da5-4c9a-84c3-278234f645c4" style="min-height: 600px;"/>
 </div>
 
 <div dir="rtl" style="margin-top: 20px;">
@@ -18,18 +18,18 @@ _____________________________________
 
 1. متغیر ها، ثابت ها و تمام داده های قابل تنظیم، باید در **بالا ترین سطح انتزاع** قرار داشته باشند. ([Configurable Data At High Levels][Configurable Data At High Levels])
 2. به جای **نقض کردن** قانون [open-closed][open-closed]، از ویژگی [polymorphism][polymorphism] استفاده کنید. ([Replace Conditional With Polymorphism][Replace Conditional With Polymorphism])
-3. ([Separate multi-threading code][Separate multi-threading code])
+3. م ([Separate multi-threading code][Separate multi-threading code])
 4. از بیش از اندازه دادنِ **آزادی عمل** به توسعه دهنده های برنامه خود جلوگیری کنید. ([Prevent Over-Configurability][Prevent Over-Configurability])
 5. به جای ساخت آبجکت (با استفاده از new)، از **تزریق وابستگی** استفاده کنید. ([Dependency Injection][Dependency Injection])
 6. توابع و کلاس ها به جز کاری که انجام میدهند، نباید به جزئیات دیگری در کد **دسترسی** داشته باشند. (قانون [LoD][LoD])
 
 ## قوانین توابع
 
-1. توابع شما باید کوچک باشند. ([Small][Small])
-2. ([Do one thing][Do one thing])
-3. ([Use descriptive names][Use descriptive names])
-4. ([Prefer fewer arguments][Prefer fewer arguments])
-5. ([Have no side effects][Have no side effects])
+1. توابع شما باید **کوچک** باشند. ([Small][Small])
+2. هر تابع باید فقط و فقط **یک کار** را انجام دهد. ([Do one thing][Do one thing])
+3. نامی که برای هر تابع انتخاب میکنید باید به طور کامل، **کاری که انجام میدهد** را توصیف کند. ([Use descriptive names][Use descriptive names])
+4. بهترین تابع، تابع نیلادیک ([Niladic][Niladic]) ست. تابع شما باید کمترین **آرگومان** را دریافت کند. ([Prefer fewer arguments][Prefer fewer arguments])
+5. تابع شما نباید هیچ چیزی را که **خارج از اسکوپ** آن قرار دارد، تغییر دهد. ([Have no side effects][Have no side effects])
 
 ## تست ها
 
@@ -56,6 +56,7 @@ _____________________________________
 
 [//]: # (قوانین طراحی)
 [Configurable Data At High Levels]:https://www.google.com/search?q=Keep+Configurable+Data+At+High+Levels&client=firefox-b-d&sca_esv=5c40852b81bce253&sxsrf=ACQVn080Vtmpoaci5xNevh2PdaAOilZKjA%3A1706983826718&ei=koG-Ze-9K7mpi-gP8vangAg&ved=0ahUKEwjvzoOl4o-EAxW51AIHHXL7CYAQ4dUDCBA&oq=Keep+Configurable+Data+At+High+Levels&gs_lp=Egxnd3Mtd2l6LXNlcnAiJUtlZXAgQ29uZmlndXJhYmxlIERhdGEgQXQgSGlnaCBMZXZlbHMyBBAjGCcyBBAjGCcyBBAjGCcyBRAAGIAEMgYQABgWGB4yCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0itNlD_BViSCXACeAGQAQCYAa8DoAHcBaoBBTMtMS4xuAEMyAEA-AEBwgIKEAAYRxjWBBiwA-IDBBgAIEGIBgGQBgQ&sclient=gws-wiz-serp
+[Polymorphism]:https://www.google.com/search?q=polymorphism+futear+in+oop&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=1183&biw=1151&hl=en&sxsrf=ACQVn0-uE1COXoqtBRAbQGOPfSHZNTWSFg%3A1708290022391&ei=5m_SZdeoF6Lpi-gP5JyB0AU&ved=0ahUKEwjXs9Sf5LWEAxWi9AIHHWROAFoQ4dUDCBA&uact=5&oq=polymorphism+futear+in+oop&gs_lp=Egxnd3Mtd2l6LXNlcnAiGnBvbHltb3JwaGlzbSBmdXRlYXIgaW4gb29wMgcQIRgKGKABMgcQIRgKGKABSMJRUJwBWKpPcAR4AZABAJgBtgOgAeEsqgEHMi03LjguMrgBA8gBAPgBAvgBAcICChAAGEcY1gQYsAPCAgoQIxiABBiKBRgnwgIEECMYJ8ICCxAAGIAEGIoFGJECwgIFEAAYgATCAgoQABiABBgUGIcCwgIGEAAYFhgewgILEAAYgAQYigUYhgPCAgUQIRigAcICBBAhGBXCAgUQIRifBYgGAZAGAg&sclient=gws-wiz-serp
 [Replace Conditional With Polymorphism]:https://www.google.com/search?client=firefox-b-d&q=Replace+Conditional+With+Polymorphism
 [Separate multi-threading code]:https://www.google.com/search?q=Separate+multi-threading+code&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=1184&biw=2304&hl=en&sxsrf=ACQVn09X2CR4qE8xGzmdGuUp6tHq8mJMyg%3A1708072409625&ei=2R3PZe7kJbqLi-gP5Z2L4A0&ved=0ahUKEwiutefJua-EAxW6xQIHHeXOAtwQ4dUDCBA&uact=5&oq=Separate+multi-threading+code&gs_lp=Egxnd3Mtd2l6LXNlcnAiHVNlcGFyYXRlIG11bHRpLXRocmVhZGluZyBjb2RlMgoQIxiABBiKBRgnMgQQIxgnMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDSLtiUO8FWN43cAF4AZABAJgBmAOgAeMKqgEHMi0xLjIuMbgBA8gBAPgBAcICChAAGEcY1gQYsAPCAggQABiABBiiBMICBRAhGKABwgIGEAAYFhgeiAYBkAYI&sclient=gws-wiz-serp
 [open-closed]:https://www.google.com/search?q=open-closed+principle&source=lmns&bih=1183&biw=1151&client=firefox-b-d&hl=en&sa=X&ved=2ahUKEwjoj8LT9Y-EAxUYTKQEHSZjA-kQ0pQJKAB6BAgBEAI
@@ -68,6 +69,7 @@ _____________________________________
 [Do one thing]:https://www.google.com/search?q=Do+one+thing+in+function&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=1184&biw=2304&hl=en&sxsrf=ACQVn0-V5wFF7rOe1Cu1OYL-mCbvCrGTZA%3A1708072429211&ei=7R3PZe7DDOiLi-gP2beN-As&ved=0ahUKEwiu7pLTua-EAxXoxQIHHdlbA78Q4dUDCBA&uact=5&oq=Do+one+thing+in+function&gs_lp=Egxnd3Mtd2l6LXNlcnAiGERvIG9uZSB0aGluZyBpbiBmdW5jdGlvbjIGEAAYFhgeMggQABgWGB4YDzILEAAYgAQYigUYhgNIyD9Q8gdY6DtwAngBkAEAmAHiCqAB-TeqAQ0yLTIuMy4zLjIuMi4xuAEDyAEA-AEC-AEBwgIHECMYsAMYJ8ICChAAGEcY1gQYsAPCAgUQABiABMICBRAuGIAEwgIIEAAYFhgeGArCAgUQIRigAcICBxAhGAoYoAGIBgGQBgk&sclient=gws-wiz-serp
 [Use descriptive names]:https://www.google.com/search?q=Use+descriptive+names+in+function&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=1184&biw=2304&hl=en&sxsrf=ACQVn0-iwuzevH6Ep8eTkIAUZu28-bA_og%3A1708072476918&ei=HB7PZf3RN4_0i-gPsqqKoAU&ved=0ahUKEwj9z_Lpua-EAxUP-gIHHTKVAlQQ4dUDCBA&uact=5&oq=Use+descriptive+names+in+function&gs_lp=Egxnd3Mtd2l6LXNlcnAiIVVzZSBkZXNjcmlwdGl2ZSBuYW1lcyBpbiBmdW5jdGlvbjIIECEYoAEYwwRI1gtQAFgAcAB4AZABAJgB0gKgAdICqgEDMy0xuAEDyAEA-AEC-AEB&sclient=gws-wiz-serp
 [Prefer fewer arguments]:https://www.google.com/search?q=Prefer+fewer+arguments+in+function&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=1184&biw=2304&hl=en&sxsrf=ACQVn0967KaRB29ve3UeOwfFxqD2wkR-iQ%3A1708072552083&ei=aB7PZaHjBMLsi-gP3pyaoA4&ved=0ahUKEwiht96Nuq-EAxVC9gIHHV6OBuQQ4dUDCBA&uact=5&oq=Prefer+fewer+arguments+in+function&gs_lp=Egxnd3Mtd2l6LXNlcnAiIlByZWZlciBmZXdlciBhcmd1bWVudHMgaW4gZnVuY3Rpb24yCBAhGKABGMMESIbeA1Ci2ANYotgDcAZ4AZABAJgBsAKgAbACqgEDMy0xuAEDyAEA-AEC-AEBwgIKEAAYRxjWBBiwA4gGAZAGCA&sclient=gws-wiz-serp
+[Niladic]:https://www.google.com/search?q=niladic+function&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=1183&biw=1151&hl=en&sxsrf=ACQVn086g_f0nhc2nvxLG2z1wLQx_L2T_A%3A1708288578124&ei=QmrSZfKbB5uekdUP3aSwqAc&ved=0ahUKEwjyxP3u3rWEAxUbT6QEHV0SDHUQ4dUDCBA&uact=5&oq=niladic+function&gs_lp=Egxnd3Mtd2l6LXNlcnAiEG5pbGFkaWMgZnVuY3Rpb24yBRAAGIAEMgQQABgeMgYQABgeGA9IwZ8DUP-XA1j_lwNwAngBkAEAmAH7AqAB-wKqAQMzLTG4AQPIAQD4AQL4AQHCAgoQABhHGNYEGLADiAYBkAYI&sclient=gws-wiz-serp
 [Have no side effects]:https://www.google.com/search?q=Have+no+side+effects+in+function&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=699&biw=968&hl=en&sxsrf=ACQVn0-7OvVS0EKkEM0yIC3iVSCh5k7jPw%3A1708072615689&ei=px7PZeiaKcbmi-gP-LSCuAI&ved=0ahUKEwioioisuq-EAxVG8wIHHXiaACcQ4dUDCBA&uact=5&oq=Have+no+side+effects+in+function&gs_lp=Egxnd3Mtd2l6LXNlcnAiIEhhdmUgbm8gc2lkZSBlZmZlY3RzIGluIGZ1bmN0aW9uMggQIRigARjDBEi0mgZQspMGWKWYBnADeAGQAQCYAd4CoAHeAqoBAzMtMbgBA8gBAPgBAvgBAcICChAAGEcY1gQYsAOIBgGQBgg&sclient=gws-wiz-serp
 
 [//]: # (تست ها)
