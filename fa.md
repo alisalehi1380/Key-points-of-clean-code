@@ -41,11 +41,6 @@ _____________________________________
     4. ([Self-validating][Self-validating])
 3. تست های شما باید به سادگی **خوانده** و **درک** شوند. ([Readability][Readability])
 
----
-
-### مشارکت در پروژه
-
-لطفا به ریپوی [Key points of clean code][Key points of clean code] مراجعه فرمایید.
 </div>
 
 [//]: # (قوانین عمومی)
@@ -80,6 +75,3 @@ _____________________________________
 [Readability]:https://www.google.com/search?q=Readability+in+tests&client=firefox-b-d&sca_esv=8cd01c0eb9e4bd98&sxsrf=ACQVn09VDxYVnWFCnly9aunTQaKwXZzw2g%3A1707077737717&ei=afC_ZYi0K7SLi-gPraeNkAk&ved=0ahUKEwjIjKSRwJKEAxW0xQIHHa1TA5IQ4dUDCBA&uact=5&oq=Readability+in+tests&gs_lp=Egxnd3Mtd2l6LXNlcnAiFFJlYWRhYmlsaXR5IGluIHRlc3RzMgQQIxgnMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSNwVUL0GWKUTcAN4AJABAZgBnAOgAbYMqgEHMi0yLjIuMbgBA8gBAPgBAcICChAAGEcY1gQYsAPiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp
 [Self-validating]:https://www.google.com/search?client=firefox-b-d&q=Self-validating+in+testing#ip=1
 [Repeatable]:https://www.google.com/search?client=firefox-b-d&q=Repeatable+in+testing+
-
-[//]: # (مشارکت در پروژه)
-[Key points of clean code]:https://github.com/alisalehi1380/Key-points-of-clean-code
