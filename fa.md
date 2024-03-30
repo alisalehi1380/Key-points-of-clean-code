@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img src="https://gist.github.com/assets/111766206/a22b0f56-3da5-4c9a-84c3-278234f645c4" style="min-height: 600px;"/>
+  <img src="https://github.com/alisalehi1380/Key-points-of-clean-code/assets/111766206/4185b039-6045-4133-9341-e80e18be074a" style="min-height: 600px;"/>
 </div>
 
 <div dir="rtl" style="margin-top: 20px;">
