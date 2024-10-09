@@ -31,6 +31,17 @@ _____________________________________
 4. بهترین تابع، تابع نیلادیک ([Niladic][Niladic]) ست. تابع شما باید کمترین **آرگومان** را دریافت کند. ([Prefer fewer arguments][Prefer fewer arguments])
 5. تابع شما نباید هیچ چیزی را که **خارج از اسکوپ** آن قرار دارد، تغییر دهد. ([Have no side effects][Have no side effects])
 
+## قوانین کامنت‌ها
+
+1. همیشه سعی کنید همه چیز را در کد توضیح دهید نه در کامنت.
+2. از نوشتن کامنتی که هیچ توضیح بیشتری از کد نمیدهد (کامنت زائد) خودداری کنید.
+3. از نوشتن کامنتی برای توجه بیشتر، برای چیزی که کاملا واضح است، خودداری کنید. 
+4. کامنت شما نیاز به بسته بندی ندارد! از `{ }`,`[ ]`,`( )` استفاده نکنید.
+5. کد را به کامنت نکنید! فقط حذف ش کنید.
+6. از کامنت به عنوان توضیح بیشتر در مورد قصد و هدف خود استفاده کنید.
+7. از کامنت به عنوان شفاف کننده کد استفاده کنید.
+8. به عنوان یک هشدار، در مورد عواقب تغییر استفاده کنید.
+
 ## تست ها
 
 1. هر تست (بهتر است) **فقط یک** assertion داشته باشد. ([One Assertion Per Test][One Assertion Per Test])
@@ -40,6 +51,14 @@ _____________________________________
     3. تست های شما باید **قطعی** و **تکرار پذیر** باشند، متغیر های آنها نباید در محیط های مختلف تغییر کند. ([Repeatable][Repeatable])
     4. ([Self-validating][Self-validating])
 3. تست های شما باید به سادگی **خوانده** و **درک** شوند. ([Readability][Readability])
+
+## هندل کردن اررورها
+
+1. هیچگاه error handling را با کد logic ترکیب نکنید.
+2. از Exception ها به جای بازگرداندن error code استفاده کنید.
+3. هیچگاه null ریترن نکنید یا به تابعی به عنوان پارامتر، null ارسال نکنید.
+4. کامنت شما نیاز به بسته بندی ندارد! از `{ }`,`[ ]`,`( )` استفاده نکنید.
+5. همیشه Exception را با یک توضیح کامل از خطا ارائه کنید.
 
 </div>
 
@@ -66,6 +85,9 @@ _____________________________________
 [Prefer fewer arguments]:https://www.google.com/search?q=Prefer+fewer+arguments+in+function&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=1184&biw=2304&hl=en&sxsrf=ACQVn0967KaRB29ve3UeOwfFxqD2wkR-iQ%3A1708072552083&ei=aB7PZaHjBMLsi-gP3pyaoA4&ved=0ahUKEwiht96Nuq-EAxVC9gIHHV6OBuQQ4dUDCBA&uact=5&oq=Prefer+fewer+arguments+in+function&gs_lp=Egxnd3Mtd2l6LXNlcnAiIlByZWZlciBmZXdlciBhcmd1bWVudHMgaW4gZnVuY3Rpb24yCBAhGKABGMMESIbeA1Ci2ANYotgDcAZ4AZABAJgBsAKgAbACqgEDMy0xuAEDyAEA-AEC-AEBwgIKEAAYRxjWBBiwA4gGAZAGCA&sclient=gws-wiz-serp
 [Niladic]:https://www.google.com/search?q=niladic+function&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=1183&biw=1151&hl=en&sxsrf=ACQVn086g_f0nhc2nvxLG2z1wLQx_L2T_A%3A1708288578124&ei=QmrSZfKbB5uekdUP3aSwqAc&ved=0ahUKEwjyxP3u3rWEAxUbT6QEHV0SDHUQ4dUDCBA&uact=5&oq=niladic+function&gs_lp=Egxnd3Mtd2l6LXNlcnAiEG5pbGFkaWMgZnVuY3Rpb24yBRAAGIAEMgQQABgeMgYQABgeGA9IwZ8DUP-XA1j_lwNwAngBkAEAmAH7AqAB-wKqAQMzLTG4AQPIAQD4AQL4AQHCAgoQABhHGNYEGLADiAYBkAYI&sclient=gws-wiz-serp
 [Have no side effects]:https://www.google.com/search?q=Have+no+side+effects+in+function&client=firefox-b-d&sca_esv=c3f7936c6fd1a8dc&bih=699&biw=968&hl=en&sxsrf=ACQVn0-7OvVS0EKkEM0yIC3iVSCh5k7jPw%3A1708072615689&ei=px7PZeiaKcbmi-gP-LSCuAI&ved=0ahUKEwioioisuq-EAxVG8wIHHXiaACcQ4dUDCBA&uact=5&oq=Have+no+side+effects+in+function&gs_lp=Egxnd3Mtd2l6LXNlcnAiIEhhdmUgbm8gc2lkZSBlZmZlY3RzIGluIGZ1bmN0aW9uMggQIRigARjDBEi0mgZQspMGWKWYBnADeAGQAQCYAd4CoAHeAqoBAzMtMbgBA8gBAPgBAvgBAcICChAAGEcY1gQYsAOIBgGQBgg&sclient=gws-wiz-serp
+
+[//]: # (قوانین کامنت‌ها)
+
 
 [//]: # (تست ها)
 [One Assertion Per Test]:https://www.google.com/search?q=One+assert+per+test+principel&client=firefox-b-d&sca_esv=601759512&sxsrf=ACQVn0_pHHKj3NR9hJjKQTgAls9Ctm4OaA%3A1706288379195&ei=--SzZdO-C82Hxc8P8Kic-AQ&ved=0ahUKEwiTqOfFw_uDAxXNQ_EDHXAUB08Q4dUDCBA&uact=5&oq=One+assert+per+test+principel&gs_lp=Egxnd3Mtd2l6LXNlcnAiHU9uZSBhc3NlcnQgcGVyIHRlc3QgcHJpbmNpcGVsSMIyUABY3S1wAHgBkAEAmAEAoAEAqgEAuAEDyAEA-AEC-AEB4gMEGAAgQQ&sclient=gws-wiz-serp
