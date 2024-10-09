@@ -29,6 +29,17 @@ _____________________________________
 4. The best function is the Niladic function ([Niladic][Niladic]). Your function should take the fewest **arguments** possible. ([Prefer fewer arguments][Prefer fewer arguments])
 5. Your function should not change anything that is **outside** its scope. ([Have no side effects][Have no side effects])
 
+## Comments rules
+
+1. Always try to **explain yourself in code**. If it's not possible, take your time to write a good comment.
+2. Don't be redundant (e.g.: `i++; // increment i`).
+3. Don't add obvious noise.
+4. Don't use closing brace comments (e.g.: `} // end of function`).
+5. **Don't comment out code**. Just remove.
+6. Use as **explanation of intent**.
+7. Use as **clarification of code**.
+8. Use as **warning of consequences**.
+
 ## Tests
 
 1. Each test (it is better) to have **just one** assertion. ([One Assertion Per Test][One Assertion Per Test])
@@ -38,6 +49,13 @@ _____________________________________
    3. Your tests should be **conclusive** and **repeatable**, their variables should not change in different environments. ([Repeatable][Repeatable])
    4. ([Self-validating][Self-validating])
 3. Your tests should be easy to **read** and **understand**. ([Readability][Readability])
+
+## Error handling
+
+1. **Don't mix** error handling and code.
+2. Use **Exceptions** instead of returning error codes.
+3. **Don't return null**, don't pass null either.
+4. Throw exceptions **with context**.
 
 
 [//]: # (General rules)
